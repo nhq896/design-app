@@ -26,10 +26,11 @@ export default {
   semi: true,
   singleQuote: true,
   printWidth: 140,
-  importOrder: [  // thứ tự sắp xếp import
-    '<THIRD_PARTY_MODULES>',  // các thư viện bên thứ 3
-    '^@/(.*)$',               // các import từ thư mục có config alias @
-    '^[./]'                   // các import tương đối
+  // thứ tự sắp xếp import
+  importOrder: [
+    '<THIRD_PARTY_MODULES>', // các thư viện bên thứ 3
+    '^@/(.*)$', // các import từ thư mục có config alias @
+    '^[./]', // các import tương đối
   ],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,

@@ -21,10 +21,7 @@ const app = new Hono().basePath('/api');
 
 app.use('*', initAuthConfig(getAuthConfig));
 
-const routes = app
-  .route('/images', images)
-  .route('/projects', projects)
-  .route('/users', users);
+const routes = app.route('/images', images).route('/projects', projects).route('/users', users);
 
 export const GET = handle(app);
 export const POST = handle(app);

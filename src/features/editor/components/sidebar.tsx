@@ -30,8 +30,6 @@ export const Sidebar = ({ activeTool, onChangeActiveTool }: SidebarProps) => {
 
         <SidebarItem icon={Pencil} label="Draw" isActive={activeTool === 'draw'} onClick={() => onChangeActiveTool('draw')} />
 
-
-
         <SidebarItem icon={Settings} label="Settings" isActive={activeTool === 'settings'} onClick={() => onChangeActiveTool('settings')} />
       </ul>
     </aside>

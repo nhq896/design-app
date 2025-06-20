@@ -11,7 +11,6 @@ import { ModalProvider } from '@/components/modal-provider';
 import { Providers } from '@/components/providers';
 import { Toaster } from '@/components/ui/sonner';
 import { siteConfig } from '@/config';
-
 import { cn } from '@/lib/utils';
 
 import './globals.css';

@@ -294,8 +294,6 @@ export const Toolbar = ({ editor, activeTool, onChangeActiveTool }: ToolbarProps
         </div>
       )}
 
-
-
       <div className="flex h-full items-center justify-center">
         <Hint label="Bring Forward" side="bottom" sideOffset={5}>
           <Button onClick={() => editor?.bringForward()} size="icon" variant="ghost">
